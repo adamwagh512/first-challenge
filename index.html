@@ -4,28 +4,29 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
+    <title>Welcome to Horiseon</title>
 </head>
 
 <body>
-    <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
-            <ul> <!--updated so that all links open in new tabs-->
+    <nav class="header">
+        <h1>Hori<em class="seo">seo</em>n</h1>
+        <div> <!--****CANNOT FIND A GOOD SUBSTITUTION FOR DIV IN THIS CASE. THE FORMAT OF THE MENU BAR CHANGES EACH TIME I MODIFY OR DELETE THE <DIV> TAGS****-->
+            <ul> <!--added the markers below so the links work-->
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
                 <li>
-                    <a href="#online-reputation-management" target="_blank">Online Reputation Management</a>
+                    <a href="#online-reputation-management">Online Reputation Management</a>
                 </li>
                 <li>
-                    <a href="#social-media-marketing" target="_blank">Social Media Marketing</a>
+                    <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
         </div>
-    </div>
-    <div class="hero"></div>
-    <section class="content"> <!--Not sure what to do with this yet...-->
+    </nav>
+
+    <section class="hero"></section>
+    <section class="content"> 
         <section class="section"> <a name="search-engine-optimization"></a>
             <img src="./assets/images/search-engine-optimization.jpg" alt = "neatly organized desk with notebook" class="float-left secImg" />
             <h2 class="secH2">Search Engine Optimization</h2>
@@ -33,9 +34,8 @@
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </section>
-        <section class="section">
+        <section class="section"> <a name="online-reputation-management"></a>
             <img src="./assets/images/online-reputation-management.jpg" alt= "laptop with reputation written on the screen and several graphs" class="float-right secImg" />
-            <!--class="float-right"-->
             <h2 class="secH2">Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
@@ -48,37 +48,38 @@
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </section>
-    </div>
-    <aside class="benefits">
-        <aside class="aside">
+    
+    <aside class="benefits"> <!--This section is appearing lower than the rest of the content. I cannot find a reason this wont render where it should-->
+        <section class="aside">
             <h3 class="asideH3">Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="gear being funneled into a coin" class="asideImg"/>
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
-        </aside>
-        <aside class="aside">
+        </section>
+        <section class="aside">
             <h3 class="asideH3">Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt="man with lightbulb for a head" class="asideImg"/>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
-        </div>
-        <aside class="benefit-cost">
+        </section>
+        <section class="aside">
             <h3 class="asideH3">Cost Management</h3>
             <img src="./assets/images/cost-management.png" alt="money and gears" class="asideImg"/>
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
-        </aside>
-    <!--</section>-->
-    <div class="footer">
+        </section>
+    </aside>
+</section>
+    <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <h2>Fixed by Adam Wagh</h2>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>

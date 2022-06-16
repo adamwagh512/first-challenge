@@ -20,8 +20,10 @@ body {
     font-size: 48px;
 }
 
+/*since <span> isnt good semantic HTML, I used the <em> tab and modified the CSS so that it appears normally on the screen */
 .header h1 .seo {
     color: #d9dcd6;
+    font-style: normal;
 }
 
 .header div {
@@ -50,6 +52,7 @@ p {
     font-size: 16px;
 }
 
+/*The following code controls the large picture at the top of the page */
 .hero {
     height: 800px;
     width: 100%;
@@ -125,6 +128,7 @@ p {
     font-size: 36px;   
 }
 
+/* The remainder of the code below formats the footer at the bottom of the page */
 .footer {
     padding: 30px;
     clear: both;
