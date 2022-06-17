@@ -10,19 +10,31 @@ body {
     background-color: #d9dcd6;
 }
 
+/* I believe this affects the anchor tags, when I commented it out, it messed with my nav bar */
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* The following code effects the behavior of the paragraph tags */
+p {
+    font-size: 16px;
+}
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* This section of code regulates the  */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/*since <span> isnt good semantic HTML, I used the <em> tab and modified the CSS so that it appears normally on the screen */
+/*The website I read said that <span> isnt good semantic HTML, so I used the <em> tab and modified the CSS so that it appears normally on the screen */
 .header h1 .seo {
     color: #d9dcd6;
     font-style: normal;
@@ -35,27 +47,15 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px; 
 } 
-
+/* This controls the behavior of the unordered list */
 .header ul {
     list-style-type: none;
     float: right;
 }
-
+/* This controls the behavior of the individual list items in the unordered list */
 .header ul li {
     display: inline-block;
     margin-left: 150px;
-}
-
-/* I believe this affects the anchor tags, when I commented it out, it messed with my nav bar */
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/* The following code effects the behavior of the paragraph tags */
-p {
-    font-size: 16px;
 }
 
 /*The following code controls the large picture at the top of the page */
@@ -77,13 +77,13 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/* regulates the behavior of the content class */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* regulates the behavior of the benefits class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
