@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+<!-- This is the header where I can link to my CSS sheet and provide a title for the website -->
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Welcome to Horiseon</title>
+    <title>Welcome to Horiseon</title>  
 </head>
 
 <body>
-    <nav class="header">
+    <!-- This section deals with the navigation bar complete with links to lower in the same page -->
+    <header class="header">
         <h1>Hori<em class="seo">seo</em>n</h1>
-        <!--****CANNOT FIND A GOOD SUBSTITUTION FOR DIV IN THIS CASE. THE FORMAT OF THE MENU BAR CHANGES EACH TIME I MODIFY OR DELETE THE <DIV> TAGS****-->
-            <ul> <!--added the markers below so the links work-->
+        <nav class="nav">
+            <ul> 
                 <li>
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
@@ -22,10 +24,13 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        
-    </nav>
+        </nav>
+    </header>
 
-    <section class="hero"></section>
+    <!--This is the big picture on the top of the webpage-->
+    <section class="hero"></section> 
+
+    <!-- This section makes up the main section of the website, complete with pictures and link destinations from the nav bar -->
     <section class="content"> 
         <section class="section"> <a name="search-engine-optimization"></a>
             <img src="./assets/images/search-engine-optimization.jpg" alt = "neatly organized desk with notebook" class="float-left secImg" />
@@ -49,7 +54,9 @@
             </p>
         </section>
     </section>
-    <aside class="benefits"> <!--This section is appearing lower than the rest of the content. I cannot find a reason this wont render where it shoud-->
+
+    <!--This section contains the code for the content on the right side of the website in the sidebar-->
+    <aside class="benefits"> 
         <section class="aside">
             <h3 class="asideH3">Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="gear being funneled into a coin" class="asideImg"/>
@@ -57,6 +64,7 @@
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </section>
+
         <section class="aside">
             <h3 class="asideH3">Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt="man with lightbulb for a head" class="asideImg"/>
@@ -64,6 +72,7 @@
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </section>
+        
         <section class="aside">
             <h3 class="asideH3">Cost Management</h3>
             <img src="./assets/images/cost-management.png" alt="money and gears" class="asideImg"/>
@@ -72,7 +81,7 @@
             </p>
         </section>
     </aside>
-<!-- </section> -->
+    <!-- This is the footer section, which appears below the main body of the webpage -->
     <footer class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <h2>Fixed by Adam Wagh</h2>
