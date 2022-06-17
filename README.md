@@ -6,17 +6,18 @@ This is my first challenge project for the UT coding bootcamp. The idea behind t
 
 
 ### Acceptance criteria from job ticket
-GIVEN a webpage meets accessibility standards
-WHEN I view the source code
-THEN I find semantic HTML elements
-WHEN I view the structure of the HTML elements
-THEN I find that the elements follow a logical structure independent of styling and positioning
-WHEN I view the icon and image elements
-THEN I find accessible alt attributes
-WHEN I view the heading attributes
-THEN they fall in sequential order
-WHEN I view the title element
-THEN I find a concise, descriptive title
+<p>GIVEN a webpage meets accessibility standards</p>
+<p>WHEN I view the source code </p>
+<p>THEN I find semantic HTML elements</p>
+<p>WHEN I view the structure of the HTML elements </p>
+<p>THEN I find that the elements follow a logical structure independent of styling and positioning </p>
+<p>WHEN I view the icon and image elements </p>
+<p>THEN I find accessible alt attributes </p>
+<p>WHEN I view the heading attributes </p>
+<p>THEN they fall in sequential order </p>
+<p>WHEN I view the title element</p>
+<p>THEN I find a concise, descriptive title </p>
+
 
 ## How to Use This Project
 To access the finished project page please visit : https://adamwagh512.github.io/first-challenge/
