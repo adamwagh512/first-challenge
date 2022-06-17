@@ -4,7 +4,6 @@
 ## Project Description:
 This is my first challenge project for the UT coding bootcamp. The idea behind this challenge was to make the website. The Following criteria were laid out for this challenge. These criteria were taken directly from the readme in the UT bootcamp repository.
 
-<img src="./assets/images/final.png>
 
 ### Acceptance criteria from job ticket
 GIVEN a webpage meets accessibility standards
